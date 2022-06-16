@@ -28,10 +28,24 @@ class UserDetailViewController: UIViewController {
     //MARK: - DidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
+        setGradientBackground()
         let initialLocation = CLLocation(latitude: 21.282778, longitude: -157.829444)
         userLocationMapView.centerToLocation(initialLocation)
         viewModel?.delegate = self
         viewModel?.loadVC()
+    }
+    
+    //MARK: - Private methods
+    private func setGradientBackground() {
+        let colorTop =  UIColor(red: 240.0/255.0, green: 130.0/255.0, blue: 50.0/255.0, alpha: 0.70).cgColor
+        let colorBottom = UIColor(red: 255.0/255.0, green: 94.0/255.0, blue: 58.0/255.0, alpha: 0.05).cgColor
+        
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.colors = [colorTop, colorBottom]
+        gradientLayer.locations = [0.0, 0.20]
+        gradientLayer.frame = self.view.bounds
+        
+        self.view.layer.insertSublayer(gradientLayer, at:0)
     }
 
 }
