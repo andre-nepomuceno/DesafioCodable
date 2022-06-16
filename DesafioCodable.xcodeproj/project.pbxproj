@@ -16,6 +16,15 @@
 		6DFEF43C285AAF4300368AE0 /* DesafioCodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFEF43B285AAF4300368AE0 /* DesafioCodableTests.swift */; };
 		6DFEF446285AAF4300368AE0 /* DesafioCodableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFEF445285AAF4300368AE0 /* DesafioCodableUITests.swift */; };
 		6DFEF448285AAF4300368AE0 /* DesafioCodableUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFEF447285AAF4300368AE0 /* DesafioCodableUITestsLaunchTests.swift */; };
+		6DFEF458285AAF7100368AE0 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFEF457285AAF7100368AE0 /* UserViewModel.swift */; };
+		6DFEF45A285AAF7E00368AE0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFEF459285AAF7E00368AE0 /* User.swift */; };
+		6DFEF45C285AAF8A00368AE0 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFEF45B285AAF8A00368AE0 /* Address.swift */; };
+		6DFEF45E285AAF9900368AE0 /* Geo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFEF45D285AAF9900368AE0 /* Geo.swift */; };
+		6DFEF460285AB04100368AE0 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFEF45F285AB04100368AE0 /* Service.swift */; };
+		6DFEF462285AB17A00368AE0 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFEF461285AB17A00368AE0 /* Company.swift */; };
+		6DFEF464285B5FAB00368AE0 /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFEF463285B5FAB00368AE0 /* UserDetailViewController.swift */; };
+		6DFEF466285B5FCE00368AE0 /* UserDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFEF465285B5FCE00368AE0 /* UserDetailViewModel.swift */; };
+		6DFEF468285B7FCF00368AE0 /* UserLocationAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFEF467285B7FCF00368AE0 /* UserLocationAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +58,15 @@
 		6DFEF441285AAF4300368AE0 /* DesafioCodableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesafioCodableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DFEF445285AAF4300368AE0 /* DesafioCodableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioCodableUITests.swift; sourceTree = "<group>"; };
 		6DFEF447285AAF4300368AE0 /* DesafioCodableUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioCodableUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6DFEF457285AAF7100368AE0 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		6DFEF459285AAF7E00368AE0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6DFEF45B285AAF8A00368AE0 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		6DFEF45D285AAF9900368AE0 /* Geo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geo.swift; sourceTree = "<group>"; };
+		6DFEF45F285AB04100368AE0 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		6DFEF461285AB17A00368AE0 /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		6DFEF463285B5FAB00368AE0 /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
+		6DFEF465285B5FCE00368AE0 /* UserDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewModel.swift; sourceTree = "<group>"; };
+		6DFEF467285B7FCF00368AE0 /* UserLocationAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocationAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +117,16 @@
 		6DFEF423285AAF3F00368AE0 /* DesafioCodable */ = {
 			isa = PBXGroup;
 			children = (
+				6DFEF456285AAF5800368AE0 /* View */,
+				6DFEF455285AAF5300368AE0 /* ViewModel */,
+				6DFEF454285AAF4E00368AE0 /* Model */,
 				6DFEF424285AAF3F00368AE0 /* AppDelegate.swift */,
 				6DFEF426285AAF3F00368AE0 /* SceneDelegate.swift */,
-				6DFEF428285AAF3F00368AE0 /* ViewController.swift */,
 				6DFEF42A285AAF3F00368AE0 /* Main.storyboard */,
 				6DFEF42D285AAF4200368AE0 /* Assets.xcassets */,
 				6DFEF42F285AAF4200368AE0 /* LaunchScreen.storyboard */,
 				6DFEF432285AAF4200368AE0 /* Info.plist */,
+				6DFEF45F285AB04100368AE0 /* Service.swift */,
 			);
 			path = DesafioCodable;
 			sourceTree = "<group>";
@@ -125,6 +146,36 @@
 				6DFEF447285AAF4300368AE0 /* DesafioCodableUITestsLaunchTests.swift */,
 			);
 			path = DesafioCodableUITests;
+			sourceTree = "<group>";
+		};
+		6DFEF454285AAF4E00368AE0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6DFEF459285AAF7E00368AE0 /* User.swift */,
+				6DFEF45B285AAF8A00368AE0 /* Address.swift */,
+				6DFEF45D285AAF9900368AE0 /* Geo.swift */,
+				6DFEF461285AB17A00368AE0 /* Company.swift */,
+				6DFEF467285B7FCF00368AE0 /* UserLocationAnnotation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6DFEF455285AAF5300368AE0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6DFEF457285AAF7100368AE0 /* UserViewModel.swift */,
+				6DFEF465285B5FCE00368AE0 /* UserDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6DFEF456285AAF5800368AE0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6DFEF428285AAF3F00368AE0 /* ViewController.swift */,
+				6DFEF463285B5FAB00368AE0 /* UserDetailViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +309,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DFEF45C285AAF8A00368AE0 /* Address.swift in Sources */,
+				6DFEF460285AB04100368AE0 /* Service.swift in Sources */,
+				6DFEF462285AB17A00368AE0 /* Company.swift in Sources */,
+				6DFEF466285B5FCE00368AE0 /* UserDetailViewModel.swift in Sources */,
 				6DFEF429285AAF3F00368AE0 /* ViewController.swift in Sources */,
+				6DFEF458285AAF7100368AE0 /* UserViewModel.swift in Sources */,
 				6DFEF425285AAF3F00368AE0 /* AppDelegate.swift in Sources */,
+				6DFEF464285B5FAB00368AE0 /* UserDetailViewController.swift in Sources */,
+				6DFEF45A285AAF7E00368AE0 /* User.swift in Sources */,
 				6DFEF427285AAF3F00368AE0 /* SceneDelegate.swift in Sources */,
+				6DFEF468285B7FCF00368AE0 /* UserLocationAnnotation.swift in Sources */,
+				6DFEF45E285AAF9900368AE0 /* Geo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
