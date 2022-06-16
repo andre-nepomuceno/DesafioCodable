@@ -1,0 +1,2 @@
+# DesafioCodable
+Exercício proposto na aula do curso da DigitalHouse de Swift / IOS para ler uma api através de URLSession, decodificar a resposta através de JSONDecoder e utilizar o padrão MVVM  para preencher uma table com o nome recebido na classe de resposta. Como a classe tinha diversas outras informações, acrescentei uma nova View pra exibir os detalhes e utilizei MapKit pra exibir a localização do usuário, pois haviam coordenadas geográficas na resposta.
